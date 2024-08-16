@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#form-builder {
+    width: 92%;
+    margin: 0 auto;
+}
+
+#form-controls button {
+    margin-right: 10px;
+}
+
+.form-element, #radio-form {
+    margin-bottom: 15px;
+    position: relative;
+    background: #a2a2a238;
+    padding: 10px 18px;
+}
+
+.form-element input, .form-element select, .form-element textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+button.remove-element.btn.btn-danger {
+    position: absolute;
+    right: -6%;
+    top: 0%;
+    /* display: flex; */
+    border-radius: 50%;
+}
+#dynamic-form {
+    margin-top: 10px;
+}
+#add-option{
+    /* margin-top: 10px; */
+}
+.checkbox-group {
+    margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1000px;
+    }
+}
