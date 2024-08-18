@@ -27,7 +27,7 @@ $(document).ready(function() {
 
                 <div class="selectbox-options">
                     <label for="option-input">Option:</label>
-                    <input type="text" id="option-input" placeholder="Enter new option">
+                    <input type="text" class="form-control" id="option-input" placeholder="Enter new option">
                     
                     <button id="add-option" class="btn btn-info">Add Option</button>
                 </div>
